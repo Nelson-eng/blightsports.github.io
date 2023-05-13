@@ -1,0 +1,165 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Top Section */
+
+.toplogo {
+    float: left;
+    padding-top: 7px;
+}
+
+/* News Section */
+
+.newscontainer {
+    margin: 20px auto;
+}
+
+.newscol1 {
+    margin: 0 auto;
+}
+
+/* Title Section */
+#home {
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.title-image {
+    transform: rotate(10deg);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.titlecol-1 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    padding: 7%;
+    text-align: center;
+}
+
+/* Carousel Section */
+
+#carousel {
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Why Us Section */
+
+#whyussection {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 3%;
+}
+
+.whyus-row {
+    text-align: center;
+}
+
+.whyus-icon:hover {
+    color: #ff4c68;
+  }
+  
+.whyus-h3 {
+    font-family: 'Montserrat-Bold';
+    font-size: 1.5rem;
+    text-align: center;
+}
+  
+.whyus-p {
+    color: #fff;
+}
+
+/* Subscribe Section */
+
+#subscribe {
+    background-color: #ffc468;
+    padding: 5%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+/* CTA Section */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 8%;
+    text-align: center;
+}
+
+.ctabutton {
+    margin: 2px;
+}
+
+.sportsnewsletter {
+    display: block;
+    margin: 15px auto;
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: #fff;
+    padding: 5%;
+    text-align: center;
+}
+
+.footer-icon {
+   color: #413F42;
+   padding: 2%;
+   padding-bottom: 10%;
+}
+
+.footer-p {
+    color: grey;
+    font-size: 1.5rem;
+}
+
+/* Football */
+
+.footballtitleimg {
+    display: block;
+    margin: 10px auto;
+}
+
+/* Transfers */
+
+#transfers {
+    margin: 3%;
+}
+
+/* Shopping */
+
+#shoppingfront {
+    margin: 10px;
+}
+
+.shoppingfront-button {
+    border: none;
+    padding: 3%;
+    margin: 2%;
+}
+/* Extra Responsiveness */
+
+@media (max-width: 1028px) {
+    .title-image {
+        transform: rotate(0);
+        margin: 2px auto;
+    }
+}
+
